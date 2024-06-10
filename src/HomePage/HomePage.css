@@ -1,0 +1,30 @@
+.home-page {
+  height: 100%;
+  width: 100%;
+}
+
+.gallery-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px;
+}
+
+.card-container {
+  width: 250px;
+  height: 100px;
+  border-radius: 5px;
+  border: 1px solid black;
+  box-shadow: 0px 4px 7px -4px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  transition: 0.2s ease-in;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 6px 8px -6px rgba(0, 0, 0, 0.75);
+}
+
+.card-container .label {
+  font-weight: 600;
+}

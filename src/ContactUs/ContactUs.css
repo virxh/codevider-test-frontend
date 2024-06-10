@@ -1,0 +1,7 @@
+.p1 .the-p1 {
+  font-weight: 600;
+}
+
+.p1 span:hover {
+  cursor: pointer;
+}
